@@ -1,0 +1,108 @@
+/* common */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    word-wrap: break-word;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Fine common */
+
+body{
+    background-color: white;
+}
+
+/* inizio debug  */
+
+.debug .first-header {
+    background-color: #E67AE6;
+}
+
+.debug .largest-header {
+    background-color: #E1D67A;
+}
+
+.debug .container {
+    background-color: #1286FF;
+}
+
+.debug .content {
+    background-color: #ABCFE7;
+}
+
+.debug footer {
+    background-color: #8702FD;
+}
+
+/* fine debug  */
+
+
+/* Inizio Header  */
+
+header{
+    width: 80%;
+}
+
+.first-header {
+    height: 120px;
+    margin: 20px auto;
+}
+
+.largest-header{
+    height: 400px;
+    margin: 20px auto;
+}
+/* fine Header  */
+
+/* Inizio main  */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.intro{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.left-sidebar {
+    width: calc(100% / 4 - 10px);
+    margin-left: 0;
+    float: left;
+}
+
+.right-sidebar {
+    width: calc(100% / 4 - 10px);
+    margin-right: 0;
+    float: right;
+}
+
+.center {
+    width: calc((100% / 4 - 10px) * 2);
+    float: left;
+}
+
+/* fine main  */
+
+/* inizio footer  */
+footer{
+    width: 80%;
+    height: 80px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+/* Fine footer  */
