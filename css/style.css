@@ -14,7 +14,7 @@
 body{
     background-color: white;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p, h4{
@@ -60,7 +60,7 @@ header{
 }
 
 .logo img{
-    width: 20%;
+    width: 16%;
     vertical-align: middle;
     line-height: 120px;
     padding: 10px;
@@ -80,13 +80,14 @@ ul li {
 /* inizio slider  */
 
 .slider{
-    margin: 20px auto;
+    margin-top: 30px 0;
+    margin-bottom: 30px;
     position: relative;
 }
 
 .slider img {
     width: 100%;
-    height: 470px;
+    height: 490px;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -94,14 +95,14 @@ ul li {
 nav .bigger {
     position: absolute;
     bottom: 100px;
-    left: 40px;
+    left: 50px;
     font-size: 30px;
 }
 
 nav .smaller {
     position: absolute;
-    bottom: 60px;
-    left: 40px;
+    bottom: 70px;
+    left: 50px;
 }
 
 .overlay-slider {
@@ -124,6 +125,7 @@ nav .smaller {
     margin:10px;
     margin-bottom: 15px;
     margin-top: 15px;
+    position: relative;
 }
 /* content intro  */
 h1 {
@@ -143,8 +145,9 @@ h1 {
 /* left sidebar and center content */
 
 .left-sidebar {
-    width: calc(100% / 5 - 15px);
+    width: calc(100% / 5 );
     margin-left: 0;
+    margin-left: 10px;
     float: left;
 }
  
@@ -161,37 +164,42 @@ h4 {
     margin-bottom: 10px;
 }
 
-.center h4 {
+h4 {
     margin-top: 27.5px;
 }
 
 /* applying calc rule  */
 .right-sidebar {
-    width: calc(100% / 5 - 15px);
+    width: calc(100% / 5 );
     margin-right: 0;
+    margin-left: 10px;
     float: right;
 }
 
 .center {
-    width: calc((100% / 5 - 15px) * 3);
+    width: calc((100% / 5 - 10px) * 3);
     float: left;
-    margin: 0 27.5px;
+    margin: 0;
     margin-top: 15px;
 }
 
-.center img {
+.content img {
     width: 100%;
-    height: 200px;
+    height: 190px;
     object-fit: cover;
     border-radius: 20px;
     margin-bottom: 20px;
 }
 
-.overlay content .right-sidebar {
+.overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.2);
     border-radius: 20px;
+}
+
+.positioning {
+    position: relative;
 }
 
 /* fine main  */
@@ -201,12 +209,12 @@ footer{
     width: 80%;
     height: 80px;
     margin-top: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     text-align: center;
     padding-top: 40px;
     color: black;
-    font-size: 20px;
-    font-weight: 100;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .hearth {
