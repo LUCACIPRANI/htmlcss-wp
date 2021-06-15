@@ -3,8 +3,6 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
-    word-wrap: break-word;
 }
 
 .container::after {
@@ -13,19 +11,20 @@
     clear: both;
 }
 
-/* Fine common */
-
 body{
     background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Fine common */
 
 /* inizio debug  */
 
-.debug .first-header {
+.debug .logo-header {
     background-color: #E67AE6;
 }
 
-.debug .largest-header {
+.debug .slider {
     background-color: #E1D67A;
 }
 
@@ -50,16 +49,37 @@ header{
     width: 80%;
 }
 
-.first-header {
-    height: 120px;
+.logo-header {
+    height: 200px;
     margin: 20px auto;
 }
 
-.largest-header{
+.logo img{
+    width: 20%;
+    vertical-align: middle;
+    line-height: 120px;
+    padding: 10px;
+    border-right: 1px solid #A2A2A2;
+    margin-bottom: 30px;
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #A2A2A2;
+}
+
+/* fine Header  */
+
+/* inizio slider  */
+
+.slider{
     height: 400px;
     margin: 20px auto;
 }
-/* fine Header  */
+
+/* fine slider  */
 
 /* Inizio main  */
 .container{
